@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-04-feedback/static/css/main.656af7ed.css",
+    "main.js": "/goit-react-hw-04-feedback/static/js/main.94129d29.js",
+    "static/media/eatday-webfont.woff": "/goit-react-hw-04-feedback/static/media/eatday-webfont.d1cf490e7444fa0a4fdf.woff",
+    "static/media/eatday-webfont.woff2": "/goit-react-hw-04-feedback/static/media/eatday-webfont.dbb23fb1ce81b2a99abb.woff2",
+    "index.html": "/goit-react-hw-04-feedback/index.html",
+    "main.656af7ed.css.map": "/goit-react-hw-04-feedback/static/css/main.656af7ed.css.map",
+    "main.94129d29.js.map": "/goit-react-hw-04-feedback/static/js/main.94129d29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.656af7ed.css",
+    "static/js/main.94129d29.js"
+  ]
+}
