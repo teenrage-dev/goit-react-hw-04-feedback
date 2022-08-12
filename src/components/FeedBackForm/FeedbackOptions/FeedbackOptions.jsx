@@ -15,7 +15,7 @@ export const FeedbackOptions = ({
           name="good"
           onClick={onClickGood}
         >
-          Good
+          Good1
         </button>
         <button
           type="button"
