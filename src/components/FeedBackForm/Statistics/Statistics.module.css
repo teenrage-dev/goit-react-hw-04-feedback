@@ -1,0 +1,17 @@
+.form__title {
+  font-family: 'eatdayregular';
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form__text {
+  font-family: 'eatdayregular';
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.form__text_wrap {
+  color: #fff;
+}

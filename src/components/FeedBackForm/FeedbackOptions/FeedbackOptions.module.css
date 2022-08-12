@@ -1,0 +1,25 @@
+.wrapper__feedback {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mark__btn {
+  font-family: 'eatdayregular';
+  font-weight: 700;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  width: 25%;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  background-color: rgb(18, 230, 159);
+}
+
+.mark__btn:hover {
+  box-shadow: 2px 2px 29px 2px rgba(31, 255, 156, 0.41);
+  border: none;
+}
