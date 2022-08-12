@@ -10,6 +10,13 @@ export function FeedBackForm() {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
+  const countTotalFeedback = () => {
+    const total = good + neutral + bad;
+    return total;
+  };
+
+  let total = countTotalFeedback();
+
   const handleClickGood = () => {
     setGood(prevState => {
       return prevState + 1;
@@ -29,21 +36,14 @@ export function FeedBackForm() {
   };
 
   useEffect(() => {
-    countTotalFeedback();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    countTotalFeedback(good, total);
   }, [good, neutral, bad]);
-
-  const countTotalFeedback = () => {
-    const total = good + neutral + bad;
-    return total;
-  };
 
   const countPositiveFeedbackPercentage = (good, total) => {
     const posFeedback = Math.round((good / total) * 100);
     return posFeedback;
   };
 
-  let total = countTotalFeedback();
   console.log(total);
   return (
     <div className="FeedBackForm">
