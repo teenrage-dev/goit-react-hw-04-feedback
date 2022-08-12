@@ -30,6 +30,7 @@ export function FeedBackForm() {
 
   useEffect(() => {
     countTotalFeedback();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [good, neutral, bad]);
 
   const countTotalFeedback = () => {
@@ -43,6 +44,7 @@ export function FeedBackForm() {
   };
 
   let total = countTotalFeedback();
+  console.log(total);
   return (
     <div className="FeedBackForm">
       <Section title="Please leave feedback">
