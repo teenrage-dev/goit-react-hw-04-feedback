@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-04-feedback/static/css/main.00434955.css",
+    "main.css": "/goit-react-hw-04-feedback/static/css/main.58b6bccf.css",
     "main.js": "/goit-react-hw-04-feedback/static/js/main.c76d307e.js",
     "static/media/eatday-webfont.woff": "/goit-react-hw-04-feedback/static/media/eatday-webfont.d1cf490e7444fa0a4fdf.woff",
     "static/media/eatday-webfont.woff2": "/goit-react-hw-04-feedback/static/media/eatday-webfont.dbb23fb1ce81b2a99abb.woff2",
     "index.html": "/goit-react-hw-04-feedback/index.html",
-    "main.00434955.css.map": "/goit-react-hw-04-feedback/static/css/main.00434955.css.map",
+    "main.58b6bccf.css.map": "/goit-react-hw-04-feedback/static/css/main.58b6bccf.css.map",
     "main.c76d307e.js.map": "/goit-react-hw-04-feedback/static/js/main.c76d307e.js.map"
   },
   "entrypoints": [
-    "static/css/main.00434955.css",
+    "static/css/main.58b6bccf.css",
     "static/js/main.c76d307e.js"
   ]
 }
