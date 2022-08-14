@@ -35,10 +35,6 @@ export function FeedBackForm() {
     });
   };
 
-  useEffect(() => {
-    countTotalFeedback(good, total);
-  }, [good, neutral, bad]);
-
   const countPositiveFeedbackPercentage = (good, total) => {
     const posFeedback = Math.round((good / total) * 100);
     return posFeedback;

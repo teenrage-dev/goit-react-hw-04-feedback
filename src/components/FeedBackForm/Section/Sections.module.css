@@ -1,7 +1,6 @@
 .FeedBackForm__section {
   overflow: hidden;
   width: 30%;
-  height: 700px;
   display: flex;
   flex-direction: column;
   padding: 30px;
